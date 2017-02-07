@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class warp : MonoBehaviour {
 
-    void OnTriggerEnter(Collider other)
+    public float t;
+
+    void OnTriggerStay(Collider other)
     {
+        t = Time.deltaTime;
         if(other.tag=="Aground")
         {
             SceneManager.LoadScene("1");

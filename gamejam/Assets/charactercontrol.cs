@@ -14,12 +14,28 @@ public class charactercontrol : MonoBehaviour
 
     void FixedUpdate()
     {
-        float H = Input.GetAxis("Horizontal");
-        float V = Input.GetAxis("Vertical");
-        Transform transform = GetComponent<Transform>();
-        velocity = new Vector3(H,0,V);
-        Physics.gravity = new Vector3(0, 9.81f, 0);
-        transform.localPosition += velocity * speed;
 
+        Rigidbody rigidbody = GetComponent<Rigidbody>();
+        rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            rigidbody.AddForce(Vector3.left * speed, ForceMode.VelocityChange);
+        }
+
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            rigidbody.AddForce(Vector3.right * speed, ForceMode.VelocityChange);
+        }
+
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            rigidbody.AddForce(Vector3.forward * speed, ForceMode.VelocityChange);
+        }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            rigidbody.AddForce(Vector3.back * speed, ForceMode.VelocityChange);
+        }
     }
 }
