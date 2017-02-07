@@ -1,4 +1,0 @@
-sceneSetups:
-- path: "Assets/\u8239\u5185.unity"
-  isLoaded: 1
-  isActive: 1
