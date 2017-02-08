@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class warp : MonoBehaviour {
 
-    public float t;
 
     void OnTriggerEnter(Collider other)
     {
