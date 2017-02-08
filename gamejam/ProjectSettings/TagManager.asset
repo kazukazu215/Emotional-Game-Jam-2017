@@ -7,6 +7,12 @@ TagManager:
   - Aground
   - Bground
   - Cground
+  - Dground
+  - Eground
+  - Fground
+  - Gground
+  - Hground
+  - Iground
   layers:
   - Default
   - TransparentFX
