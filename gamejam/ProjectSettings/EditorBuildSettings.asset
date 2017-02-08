@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: "Assets/\u8239\u5185.unity"
   - enabled: 1
+    path: Assets/sennai.unity
+  - enabled: 1
     path: Assets/1.unity
+  - enabled: 1
+    path: Assets/scene2.unity
+  - enabled: 1
+    path: Assets/scene3.unity
