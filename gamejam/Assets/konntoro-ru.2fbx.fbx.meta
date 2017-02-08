@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: a5bd28710224a5940a5ad6d57ba3e7c5
+timeCreated: 1486548712
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Circle
+    100004: Cube
+    100006: Cube.001
+    100008: Cube.002
+    100010: Cube.003
+    100012: Cube.004
+    100014: Cube.005
+    100016: Cube.006
+    100018: Cube.007
+    100020: Cube.008
+    100022: dai
+    100024: 'konntoro-ru '
+    100026: //RootNode
+    100028: Lamp
+    100030: tere1
+    100032: tere1.001
+    100034: tere1.002
+    100036: tere2
+    100038: tere2.001
+    100040: tere2.002
+    100042: tere3
+    100044: tere3.001
+    100046: tere3.002
+    400000: Camera
+    400002: Circle
+    400004: Cube
+    400006: Cube.001
+    400008: Cube.002
+    400010: Cube.003
+    400012: Cube.004
+    400014: Cube.005
+    400016: Cube.006
+    400018: Cube.007
+    400020: Cube.008
+    400022: dai
+    400024: 'konntoro-ru '
+    400026: //RootNode
+    400028: Lamp
+    400030: tere1
+    400032: tere1.001
+    400034: tere1.002
+    400036: tere2
+    400038: tere2.001
+    400040: tere2.002
+    400042: tere3
+    400044: tere3.001
+    400046: tere3.002
+    2300000: Circle
+    2300002: Cube
+    2300004: Cube.001
+    2300006: Cube.002
+    2300008: Cube.003
+    2300010: Cube.004
+    2300012: Cube.005
+    2300014: Cube.006
+    2300016: Cube.007
+    2300018: Cube.008
+    2300020: dai
+    2300022: 'konntoro-ru '
+    2300024: tere1
+    2300026: tere1.001
+    2300028: tere1.002
+    2300030: tere2
+    2300032: tere2.001
+    2300034: tere2.002
+    2300036: tere3
+    2300038: tere3.001
+    2300040: tere3.002
+    3300000: Circle
+    3300002: Cube
+    3300004: Cube.001
+    3300006: Cube.002
+    3300008: Cube.003
+    3300010: Cube.004
+    3300012: Cube.005
+    3300014: Cube.006
+    3300016: Cube.007
+    3300018: Cube.008
+    3300020: dai
+    3300022: 'konntoro-ru '
+    3300024: tere1
+    3300026: tere1.001
+    3300028: tere1.002
+    3300030: tere2
+    3300032: tere2.001
+    3300034: tere2.002
+    3300036: tere3
+    3300038: tere3.001
+    3300040: tere3.002
+    4300000: Cube.008
+    4300002: Cube.007
+    4300004: Cube.006
+    4300006: Cube.005
+    4300008: Cube.004
+    4300010: Cube.003
+    4300012: Cube.002
+    4300014: Cube.001
+    4300016: Cube
+    4300018: tere2.002
+    4300020: tere1.002
+    4300022: tere3.002
+    4300024: tere3.001
+    4300026: tere1.001
+    4300028: tere2.001
+    4300030: Circle
+    4300032: 'konntoro-ru '
+    4300034: tere2
+    4300036: tere1
+    4300038: tere3
+    4300040: dai
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
