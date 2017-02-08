@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/sennai.unity
+=======
+- path: Assets/scene3.unity
+>>>>>>> 9c64b4cc06e47385edbeafa8b87d264a90211147
   isLoaded: 1
   isActive: 1

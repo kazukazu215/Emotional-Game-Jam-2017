@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class warp : MonoBehaviour {
 
+<<<<<<< HEAD
+=======
+    public float t;
+
+>>>>>>> 9c64b4cc06e47385edbeafa8b87d264a90211147
     void OnTriggerEnter(Collider other)
     {
         if (other.tag=="Aground")
