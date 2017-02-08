@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class charactercontrol : MonoBehaviour
 {
-    private Vector3 velocity;
-    public float speed = 10;
+    public float speed = 10.0F;
+    public float rotationSpeed = 100.0F;
 
     void Start()
     {
@@ -14,28 +14,15 @@ public class charactercontrol : MonoBehaviour
 
     void FixedUpdate()
     {
-        //float x = Input.GetAxis("");
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
         Rigidbody rigidbody = GetComponent<Rigidbody>();
+        transform.Rotate(new Vector3(0, 0, z));
         rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
-
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            rigidbody.AddForce(Vector3.left * speed, ForceMode.VelocityChange);
-        }
-
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            rigidbody.AddForce(Vector3.right * speed, ForceMode.VelocityChange);
-        }
-
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            rigidbody.AddForce(Vector3.forward * speed, ForceMode.VelocityChange);
-        }
-
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            rigidbody.AddForce(Vector3.back * speed, ForceMode.VelocityChange);
-        }
+        x *= Time.deltaTime;
+        z *= Time.deltaTime;
+        transform.Translate(0, 0, z);
+        transform.Rotate(0, x, 0);
     }
+       
 }
