@@ -14,7 +14,7 @@ public class charactercontrol : MonoBehaviour
 
     void FixedUpdate()
     {
-
+        //float x = Input.GetAxis("");
         Rigidbody rigidbody = GetComponent<Rigidbody>();
         rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
 

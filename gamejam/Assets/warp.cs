@@ -7,20 +7,20 @@ public class warp : MonoBehaviour {
 
     public float t;
 
-    void OnTriggerStay(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        t = Time.deltaTime;
-        if(other.tag=="Aground")
+        SceneManager.LoadScene("1");
+        if (other.tag=="Aground")
         {
-            SceneManager.LoadScene("1");
+            this.transform.position = new Vector3(240,2,240);
         }
         else if (other.tag == "Bground")
         {
-            SceneManager.LoadScene("2");
+            this.transform.position = new Vector3(111, 2, 401);
         }
         else if (other.tag == "Cground")
         {
-            SceneManager.LoadScene("3");
+            this.transform.position = new Vector3(381, 2, 85);
         }
     }
 
