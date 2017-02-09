@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class charactercontrol : MonoBehaviour
 {
-    public float speed=0.5f;
+    public float speed = 0.5f;
+    public static float x;
+    public static float z;
+
 
     void Start()
     {
@@ -13,14 +16,13 @@ public class charactercontrol : MonoBehaviour
 
     void FixedUpdate()
     {
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+        x = Input.GetAxis("Horizontal");
+        z = Input.GetAxis("Vertical");
 
         Rigidbody rigidbody = GetComponent<Rigidbody>();
         rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
- 
-        transform.Translate(0, -z*speed, 0);
+
+        transform.Translate(0, -z * speed, 0);
         transform.Rotate(new Vector3(0, 0, x));
     }
-
 }
